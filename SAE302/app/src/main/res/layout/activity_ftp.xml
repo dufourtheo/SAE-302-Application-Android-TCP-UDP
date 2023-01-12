@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_margin="10dp" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAE 302 - THEO DUFOUR"
+        android:textColor="#4CAF50"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Client FTP"
+        android:layout_marginTop="19dp"
+        android:textColor="#4CAF50"/>
+    <EditText
+        android:id="@+id/server"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="IP SERVEUR FTP"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="2dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="NOM D'UTILISATEUR"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="MOT DE PASSE"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#b5b6b8"
+        android:onClick="ButtonClicked"
+        android:padding="5dp"
+        android:text="CONNEXION" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="152dp"
+        android:layout_height="277dp"
+        android:layout_marginTop="-425dp"
+        android:layout_marginEnd="0dp"
+        app:srcCompat="@drawable/ftp" />
+
+
+</LinearLayout>
